@@ -3,9 +3,13 @@ Basic breakout for the MSP430FR2111 chip
 
 ![Hello World](hardware/MSP430FR21_Breakout/images/hello_world.gif)
 
+## Description
+
 This board is a simple breakout using the [MSP430FR2111](www.ti.com/lit/ds/symlink/msp430fr2111.pdf) chip.  All the pins of the chip are broken out into separate headers.  There is an additional header on the top of the board to allow for plugging directly into the MSP-EXP430FR2311 evaluation board to upload code.  The breakout can accept 5V through the onboard regulator, or 3.3V directly.  There is a reset and onboard power indication LED. There is also a slot for a 32.768kHz clock and onboard LED connected directly to P2.0, for testing.  
 
+### Front
 ![Front](hardware/MSP430FR21_Breakout/images/HeaderUp_MSP430.JPG)
+### Back
 ![Back](hardware/MSP430FR21_Breakout/images/BackSide_MSP430.JPG)
 
 ## Purpose
